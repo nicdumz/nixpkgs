@@ -810,7 +810,6 @@ in
   isso = runTest ./isso.nix;
   jackett = runTest ./jackett.nix;
   jellyfin = runTest ./jellyfin.nix;
-  jellyseerr = runTest ./jellyseerr.nix;
   jenkins = runTest ./jenkins.nix;
   jenkins-cli = runTest ./jenkins-cli.nix;
   jibri = runTest ./jibri.nix;
@@ -1469,6 +1468,7 @@ in
   sdl3 = runTest ./sdl3.nix;
   searx = runTest ./searx.nix;
   seatd = runTest ./seatd.nix;
+  seerr = runTest ./seerr.nix;
   send = runTest ./send.nix;
   service-runner = runTest ./service-runner.nix;
   servo = runTest ./servo.nix;
